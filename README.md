@@ -2,6 +2,12 @@
 
 DroidMetrics is an Android application designed to evaluate a developer's profile alignment with current market demands and provide suggested skill improvements. It utilizes structured generative AI predictions directly from Gemini models using the Firebase AI Logic SDK.
 
+## Screenshots
+
+| Profile Setup Screen | Competitive Status Screen |
+| :---: | :---: |
+| ![Profile Setup](screenshots/profile_setup.png) | ![Competitive Status](screenshots/competitive_status.png) |
+
 ## Technologies Used
 
 *   **Core UI**: Jetpack Compose & Material Design 3 (M3)
@@ -34,3 +40,28 @@ sdk.dir=C\:\\Users\\<YourUsername>\\AppData\\Local\\Android\\Sdk
 ```
 *(Opening the project in Android Studio will automatically generate this file for you).*
 
+### 3. Compile the Project
+Open a terminal in the root directory of the project and run:
+
+**Windows (PowerShell / Command Prompt)**:
+```powershell
+.\gradlew.bat compileDebugKotlin
+```
+
+**macOS / Linux**:
+```bash
+./gradlew compileDebugKotlin
+```
+
+### 4. Build the App Package (APK)
+To compile and assemble the debug APK:
+
+**Windows**:
+```powershell
+.\gradlew.bat assembleDebug
+```
+
+**macOS / Linux**:
+```bash
+./gradlew assembleDebug
+```
