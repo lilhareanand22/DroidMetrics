@@ -1,0 +1,32 @@
+# Build development files
+/build
+/app/build
+
+# Local configuration files
+local.properties
+
+# Gradle files
+.gradle/
+build/
+
+# Kotlin compiler cache
+.kotlin/
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+.navigation/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.bak
+*.user
+
+# Sensitive Credentials
+google-services.json
+**/google-services.json
+
+# Agent related files
+.agents/
+skills-lock.json
